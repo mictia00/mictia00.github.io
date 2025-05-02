@@ -1,0 +1,26 @@
+{
+    "name": "mictia00-website",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "preview": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mictia00/mictia00.github.io"
+    },
+    "homepage": "https://mictia00.com",
+    "dependencies": {
+        "preact": "^10.26.4",
+        "preact-router": "^4.1.2"
+    },
+    "devDependencies": {
+        "@preact/preset-vite": "^2.10.1",
+        "typescript": "~5.7.2",
+        "vite": "^6.3.1",
+        "vite-tsconfig-paths": "^5.1.4"
+    }
+}
