@@ -1,6 +1,8 @@
 import Router, { Route } from 'preact-router';
 import { Home } from '@/routes/Home';
 
+import injectContext from '@/store/appContext';
+
 
 function App() {
     return (
@@ -14,4 +16,4 @@ function App() {
     );
 }
 
-export default App;
+export default injectContext(App);
