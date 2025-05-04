@@ -1,4 +1,4 @@
-import mictiWoa from "@/assets/mictiWoa.png";
+import picture from "@/assets/mictia00.webp";
 import "./home.css";
 
 
@@ -8,7 +8,7 @@ export function Home() {
             <section className="construction">Sitio en Construcción</section>
 
             <section className="logo-section">
-                <img src={mictiWoa} alt="Logo mictia00" />
+                <img src={picture} alt="Logo mictia00" />
                 <h1>@Mictia00</h1>
                 <h2>Streamer ・ Creadora de contenido ・ Ilustradora</h2>
             </section>
