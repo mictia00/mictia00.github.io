@@ -1,0 +1,145 @@
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #222;
+    color: #fff;
+    padding: 15px 40px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar li {
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar li:hover {
+    color: #f0f0f0;
+}
+
+#navbar h1 {
+    cursor: pointer;
+}
+
+#navbar .brand {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .brand img {
+    margin-right: 10px;
+    width: 50px;
+    height: auto;
+    border-radius: 45%;
+}
+
+#navbar .toggle-icon {
+    display: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    #navbar ul {
+        display: none;
+    }
+
+    #navbar .toggle-icon {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 40px;
+        width: 50px;
+        cursor: pointer;
+        z-index: 1100;
+    }
+}
+
+#navbar .overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #222;
+    color: #fff;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#navbar .overlay.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+#navbar .overlay .brand {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#navbar .overlay .brand img {
+    width: 110px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#navbar .overlay h1 {
+    font-size: 2.5rem;
+}
+
+#navbar .overlay h2 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #adabab;
+}
+
+#navbar .overlay ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+#navbar .overlay li {
+    position: relative;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+#navbar .overlay li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f0f0f0;
+    transition: width 0.3s;
+    margin-top: 5px;
+}
+
+#navbar .overlay li:hover::after {
+    width: 90%;
+}
