@@ -1,0 +1,31 @@
+footer#footer {
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%); 
+    color: #4a4a4a; 
+    text-align: center; 
+    padding: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+#footer .p-1 {
+    margin: 0; 
+    font-size: 1.2rem;
+}
+
+#footer .p-1 span {
+    font-size:1.5rem;
+}
+
+#footer .p-2 {
+    margin: 10px 0 0 0; 
+    font-size: 1rem;
+}
+
+#footer .p-2 a {
+    color: #ff79c6; 
+    text-decoration: none;
+}
+
+#footer .p-2 span {
+    font-size:1.2rem;
+}
