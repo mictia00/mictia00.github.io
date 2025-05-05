@@ -24,7 +24,7 @@
 }
 
 #navbar li:hover {
-    color: #f0f0f0;
+    color: #fbc2eb; 
 }
 
 #navbar h1 {
@@ -135,7 +135,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #f0f0f0;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
     transition: width 0.3s;
     margin-top: 5px;
 }

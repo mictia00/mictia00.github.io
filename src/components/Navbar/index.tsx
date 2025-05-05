@@ -24,7 +24,7 @@ export function Navbar() {
             <nav id="navbar">
                 <div class="brand">
                     <img src={Logo} alt="Logo" />
-                    <h1 onClick={clickLink('/')}>@Mictia00</h1>
+                    <h1 onClick={clickLink('/')}><em>@Mictia00</em></h1>
                 </div>
                 {ulContent}
                 <img onClick={toggleViewOverlay} src={viewOverlay ? CloseMenu : Menu} alt="Menú" class="toggle-icon" id="toggleIcon" />
