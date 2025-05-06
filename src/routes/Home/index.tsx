@@ -51,7 +51,7 @@ export function Home() {
                     <li><a href="https://www.streamloots.com/mictia00" target="_blank" className="platform" data-schedule="Twitch & Kick">STREAMLOOTS</a></li>
                     <li><a href="https://streamelements.com/mictia00/" target="_blank">STREAM ELEMENTS</a></li>
                     <li><a href="https://www.instagram.com/mizucatgallery/" target="_blank" data-schedule="Ex gatito de Mictia" className="platform">INSTAGRAM MIZU</a></li>
-
+                    <li><a href="https://www.instagram.com/micti_/" target="_blank" data-schedule="Cuenta secundaria" className="platform">INSTAGRAM MICTI_</a></li>
                 </ul>
                 <div className="divider">═─────── ✦ ───────═</div>
             </section>
